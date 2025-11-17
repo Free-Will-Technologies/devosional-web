@@ -20,20 +20,45 @@
   <div class="absolute inset-0 bg-black/70 -z-10"></div>
 
   <!-- Navbar -->
-  <header class="bg-gradient-to-r from-emerald-900/80 to-gray-800/80 shadow-lg fixed w-full top-0 z-20">
+ <header class="bg-gradient-to-r from-emerald-900/80 to-gray-800/80 shadow-lg fixed w-full top-0 z-20">
     <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-      <button id="menu-btn" class="text-yellow-400 text-2xl focus:outline-none md:hidden">☰</button>
+
+      <!-- Menu Button (left edge) -->
+      <button id="menu-btn" class="text-yellow-400 text-2xl focus:outline-none">
+        ☰
+      </button>
+
       <h1 class="text-2xl font-bold text-yellow-400">Gyanjivi Foundation</h1>
+
       <nav class="hidden md:flex space-x-6">
-        <a href="Home.html" class="hover:text-yellow-400">Home</a>
+        <a href="index.html" class="hover:text-yellow-400">Home</a>
         <a href="About.html" class="hover:text-yellow-400">About</a>
         <a href="service.html" class="hover:text-yellow-400">Services</a>
         <a href="impact.html" class="hover:text-yellow-400">Impact</a>
         <a href="Achivement.html" class="hover:text-yellow-400">Achievements</a>
         <a href="publications.html" class="hover:text-yellow-400">Publications</a>
-        <a href="blog.html" class="hover:text-yellow-400">Blog</a>
+         <!-- <a href="blog.html" class="hover:text-yellow-400">Blog</a> -->
+        <a href="modiji-journals.html" class="text-yellow-400 font-semibold">Modiji @ 75</a>
         <a href="contact.html" class="hover:text-yellow-400">Contact</a>
-        <a href="modiji.html" class="text-yellow-400 font-semibold">Modiji @ 75</a>
+      </nav>
+    </div>
+
+    <!-- Sidebar (Mobile Menu) -->
+    <div id="mobile-menu" class="fixed top-0 left-0 w-64 h-full bg-gray-900 text-white transform -translate-x-full transition-transform duration-300 z-30">
+      <div class="flex justify-between items-center px-4 py-4 border-b border-gray-700">
+        <h2 class="text-xl font-bold text-yellow-400">Menu</h2>
+        <button id="close-btn" class="text-gray-400 hover:text-white text-2xl">✕</button>
+      </div>
+      <nav class="flex flex-col mt-4 space-y-4 px-6">
+        <a href="index.html" class="hover:text-yellow-400">Home</a>
+        <a href="About.html" class="hover:text-yellow-400">About</a>
+        <a href="service.html" class="hover:text-yellow-400">Services</a>
+        <a href="impact.html" class="hover:text-yellow-400">Impact</a>
+        <a href="Achivement.html" class="hover:text-yellow-400">Achievements</a>
+        <a href="publications.html" class="hover:text-yellow-400">Publications</a>
+         <!-- <a href="blog.html" class="hover:text-yellow-400">Blog</a> -->
+        <a href="modiji-journals.html" class="text-yellow-400 font-semibold">Modiji @ 75</a>
+        <a href="contact.html" class="hover:text-yellow-400">Contact</a>
       </nav>
     </div>
   </header>
