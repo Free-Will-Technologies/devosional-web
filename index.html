@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Sri Bala Gyanjivi Foundation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-image: url('assets/buddha.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+<body class="relative text-white font-sans">
+
+  <!-- Dark overlay -->
+  <div class="absolute inset-0 bg-black/70 -z-10"></div>
+
+  <!-- Navbar -->
+  <header class="bg-gradient-to-r from-emerald-900/80 to-gray-800/80 shadow-lg fixed w-full top-0 z-20">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+
+      <!-- Menu Button (mobile, left edge) -->
+      <button id="menu-btn" class="text-yellow-400 text-2xl focus:outline-none">
+        ☰
+      </button>
+
+      <!-- Title -->
+      <h1 class="text-2xl font-bold text-yellow-400">Gyanjivi Foundation</h1>
+
+      <!-- Desktop Menu -->
+      <nav class="hidden md:flex space-x-6">
+        <a href="index.html" class="text-yellow-400 font-semibold">Home</a>
+        <a href="about.html" class="hover:text-yellow-400">About</a>
+        <a href="service.html" class="hover:text-yellow-400">Services</a>
+        <a href="impact.html" class="hover:text-yellow-400">Impact</a>
+        <a href="achivement.html" class="hover:text-yellow-400">Achievements</a>
+        <a href="publications.html" class="hover:text-yellow-400">Publications</a>
+        <a href="blog.html" class="hover:text-yellow-400">Blog</a>
+        <a href="Modijis Dharma Journey.html" class="text-yellow-400 font-semibold">Modiji @ 75</a>
+        <a href="contact.html" class="hover:text-yellow-400">Contact</a>
+      </nav>
+    </div>
+
+    <!-- Sidebar -->
+    <div id="mobile-menu" class="fixed top-0 left-0 w-64 h-full bg-gray-900 text-white transform -translate-x-full transition-transform duration-300 z-30">
+      <div class="flex justify-between items-center px-4 py-4 border-b border-gray-700">
+        <h2 class="text-xl font-bold text-yellow-400">Menu</h2>
+        <button id="close-btn" class="text-gray-400 hover:text-white text-2xl">✕</button>
+      </div>
+      <nav class="flex flex-col mt-4 space-y-4 px-6">
+        <a href="index.html" class="text-yellow-400 font-semibold">Home</a>
+        <a href="about.html" class="hover:text-yellow-400">About</a>
+        <a href="service.html" class="hover:text-yellow-400">Services</a>
+        <a href="impact.html" class="hover:text-yellow-400">Impact</a>
+        <a href="achivement.html" class="hover:text-yellow-400">Achievements</a>
+        <a href="publications.html" class="hover:text-yellow-400">Publications</a>
+        <a href="blog.html" class="hover:text-yellow-400">Blog</a>
+        <a href="Modijis Dharma Journey.html" class="text-yellow-400 font-semibold">Modiji @ 75</a>
+        <a href="contact.html" class="hover:text-yellow-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative h-72 flex items-center justify-center text-center pt-24">
+    <h1 class="text-4xl md:text-5xl font-extrabold text-yellow-100 drop-shadow-lg">
+      Driving Sustainability, Education, and Social Impact for a Better World
+    </h1>
+  </section>
+
+  <!-- Intro Section -->
+  <section class="px-6 py-12 bg-black/50">
+    <div class="max-w-5xl mx-auto text-lg leading-relaxed">
+      <p>
+        <span class="text-yellow-300">Gyanjivi Organisation</span> is a revolutionary digital platform founded by 
+        <span class="text-yellow-300">Dr. N. Ganga Vidya</span>, a visionary educator, ESG expert, and climate action advocate. 
+        We combine digital libraries, multisensory learning, and innovative services to make knowledge universally accessible. 
+        Together, we create a world where education transcends boundaries, making a meaningful impact on society and the planet.
+      </p>
+      <p class="mt-4">
+        For over <strong>25 years</strong>, <span class="text-yellow-300">Sri Bala Gyanjivi Foundation</span> has worked to uplift 
+        underserved rural communities across India by making critical knowledge accessible and actionable. 
+        We believe every person, regardless of literacy or location, deserves the tools, information, and skills required to 
+        create sustainable futures for themselves and their families. 
+        <span class="italic text-gray-300">Read More...</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- Vision & Mission -->
+  <section class="px-6 py-16 bg-emerald-900/70">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 text-lg leading-relaxed">
+      <div>
+        <h2 class="text-3xl font-bold text-yellow-100 mb-4">Vision</h2>
+        <p>
+          To bring <strong class="text-yellow-200">peace, purpose, and profits</strong> to farmers, fisherfolk, livestock owners, 
+          entrepreneurs, and indigenous communities, making their undervalued contribution a cornerstone of global prosperity.
+        </p>
+      </div>
+      <div>
+        <h2 class="text-3xl font-bold text-yellow-100 mb-4">Mission</h2>
+        <p>
+          To create a <strong class="text-yellow-200">global knowledge-sharing ecosystem</strong> that empowers the unlettered and underserved, 
+          making knowledge inclusive, accessible, and self-sustaining. Our goal is to enable rural communities to ride the wave of 
+          digital technologies and transform information accessibility within the next three years.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About the Founder -->
+  <section class="px-6 py-16 bg-black/50">
+    <div class="max-w-4xl mx-auto text-center space-y-6">
+      <h2 class="text-3xl font-bold text-yellow-100">About the Founder</h2>
+      <p>
+        <span class="text-yellow-300">Dr. N. Ganga Vidya</span> is a passionate educator, ESG consultant, and climate action expert 
+        with <strong>25+ years of experience</strong>. Her vision has shaped sustainable policies, empowered women entrepreneurs, 
+        and inspired countless lives across disciplines. 
+        <span class="italic text-gray-300">Read Her Story...</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- Sustainability Call -->
+  <section class="px-6 py-20 bg-emerald-900/70">
+    <div class="max-w-5xl mx-auto text-center space-y-6">
+      <h2 class="text-3xl font-bold text-yellow-100">Together for a Sustainable Future</h2>
+      <p class="text-lg">
+        The future belongs to those who make knowledge inclusive. At 
+        <span class="text-yellow-300">Sri Bala Gyanjivi Foundation</span>, we stand with rural communities, farmers, fisherfolk, 
+        entrepreneurs, and indigenous people, bringing forth a world where heritage, knowledge, and technology unite.
+      </p>
+      <p class="italic text-yellow-200">
+        Join Our Mission | Our Services | Our Impact | Our Achievements | Contact Us
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900/80 text-center py-6">
+    <p class="text-gray-400">2025 Proudly designed and created with love ❤️ @ FreeWill Technologies.</p>
+  </footer>
+
+  <!-- Script for Sidebar -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const closeBtn = document.getElementById('close-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.remove('-translate-x-full');
+    });
+
+    closeBtn.addEventListener('click', () => {
+      mobileMenu.classList.add('-translate-x-full');
+    });
+  </script>
+
+</body>
+</html>

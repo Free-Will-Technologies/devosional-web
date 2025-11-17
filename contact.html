@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Sri Bala Gyanjivi Foundation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-image: url('assets/buddha.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+<body class="relative text-white font-sans">
+
+  <!-- Dark overlay -->
+  <div class="absolute inset-0 bg-black/70 -z-10"></div>
+
+  <!-- Navbar -->
+  <header class="bg-gradient-to-r from-emerald-900/80 to-gray-800/80 shadow-lg fixed w-full top-0 z-20">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+
+      <!-- Menu Button (left corner) -->
+      <button id="menu-btn" class="text-yellow-400 text-2xl focus:outline-none">
+        ☰
+      </button>
+
+      <!-- Site Title -->
+      <h1 class="text-2xl font-bold text-yellow-400">Gyanjivi Foundation</h1>
+
+      <!-- Desktop Menu -->
+      <nav class="space-x-6 hidden md:flex">
+        <a href="Home.html" class="hover:text-yellow-400">Home</a>
+        <a href="About.html" class="hover:text-yellow-400">About</a>
+        <a href="service.html" class="hover:text-yellow-400">Services</a>
+        <a href="impact.html" class="hover:text-yellow-400">Impact</a>
+        <a href="Achivement.html" class="hover:text-yellow-400">Achievements</a>
+        <a href="publications.html" class="hover:text-yellow-400">Publications</a>
+        <a href="blog.html" class="hover:text-yellow-400">Blog</a>
+        <a href="Modijis Dharma Journey.html" class="text-yellow-400 font-semibold">Modiji @ 75</a>
+        <a href="contact.html" class="text-yellow-400 font-semibold">Contact</a>
+      </nav>
+    </div>
+
+    <!-- Sidebar -->
+    <div id="mobile-menu" class="fixed top-0 left-0 w-64 h-full bg-gray-900 text-white transform -translate-x-full transition-transform duration-300 z-30">
+      <div class="flex justify-between items-center px-4 py-4 border-b border-gray-700">
+        <h2 class="text-xl font-bold text-yellow-400">Menu</h2>
+        <button id="close-btn" class="text-gray-400 hover:text-white text-2xl">✕</button>
+      </div>
+      <nav class="flex flex-col mt-4 space-y-4 px-6">
+        <a href="Home.html" class="hover:text-yellow-400">Home</a>
+        <a href="About.html" class="hover:text-yellow-400">About</a>
+        <a href="service.html" class="hover:text-yellow-400">Services</a>
+        <a href="impact.html" class="hover:text-yellow-400">Impact</a>
+        <a href="Achivement.html" class="hover:text-yellow-400">Achievements</a>
+        <a href="publications.html" class="hover:text-yellow-400">Publications</a>
+        <a href="blog.html" class="hover:text-yellow-400">Blog</a>
+        <a href="Modijis Dharma Journey.html" class="text-yellow-400 font-semibold">Modiji @ 75</a>
+        <a href="contact.html" class="text-yellow-400 font-semibold">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative h-64 flex items-center justify-center text-center pt-24">
+    <h1 class="text-5xl font-extrabold text-yellow-100 drop-shadow-lg">Let’s Connect!</h1>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="px-6 py-16 bg-black/50">
+    <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12">
+      
+      <!-- Info -->
+      <div class="space-y-6">
+        <h2 class="text-3xl font-bold text-yellow-200">Get in Touch</h2>
+        <p class="text-lg leading-relaxed">
+          Have a question, collaboration proposal, or invitation?  
+          <span class="text-yellow-300">Dr. N. Ganga Vidya</span> is available for consulting, teaching, mentoring, and speaking engagements.  
+          Let’s work together to create a more sustainable and inclusive future.
+        </p>
+        <div class="space-y-4">
+          <p><strong>Email:</strong> <a href="mailto:gangavidya@gmail.com" class="text-yellow-300 hover:underline">gangavidya@gmail.com</a> | <a href="mailto:gyanjivi2022@gmail.com" class="text-yellow-300 hover:underline">gyanjivi2022@gmail.com</a></p>
+          <p><strong>Phone:</strong> <a href="tel:+917710013100" class="text-yellow-300 hover:underline">+91-7710013100</a></p>
+          <p><strong>Location:</strong> Tiruchirappalli, Tamil Nadu, India</p>
+        </div>
+        <div>
+          <h3 class="text-2xl font-bold text-yellow-100 mt-6">Expertise</h3>
+          <ul class="list-disc pl-6 space-y-2 text-gray-200">
+            <li>Climate Action</li>
+            <li>ESG Framework Development</li>
+            <li>Sustainability Education</li>
+            <li>Social Impact Programs</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="bg-gray-900/80 p-8 rounded-xl shadow-lg">
+        <h2 class="text-2xl font-bold text-yellow-200 mb-6">Send a Message</h2>
+        <form action="#" method="POST" class="space-y-4">
+          <div>
+            <label class="block text-sm mb-2">Your Name</label>
+            <input type="text" name="name" required class="w-full px-4 py-2 rounded-lg bg-black/60 border border-gray-600 focus:border-yellow-400 focus:ring-1 focus:ring-yellow-400">
+          </div>
+          <div>
+            <label class="block text-sm mb-2">Your Email</label>
+            <input type="email" name="email" required class="w-full px-4 py-2 rounded-lg bg-black/60 border border-gray-600 focus:border-yellow-400 focus:ring-1 focus:ring-yellow-400">
+          </div>
+          <div>
+            <label class="block text-sm mb-2">Message</label>
+            <textarea name="message" rows="5" required class="w-full px-4 py-2 rounded-lg bg-black/60 border border-gray-600 focus:border-yellow-400 focus:ring-1 focus:ring-yellow-400"></textarea>
+          </div>
+          <button type="submit" class="w-full py-3 bg-yellow-400 text-black font-bold rounded-lg hover:bg-yellow-500 transition">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900/80 text-center py-6">
+    <p class="text-gray-400">©  2025 Proudly designed and created with love ❤️ @ FreeWill Technologies.</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const closeBtn = document.getElementById('close-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.remove('-translate-x-full');
+    });
+
+    closeBtn.addEventListener('click', () => {
+      mobileMenu.classList.add('-translate-x-full');
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impact - Sri Bala Gyanjivi Foundation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-image: url('assets/buddha.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+<body class="relative text-white font-sans">
+
+  <!-- Dark overlay -->
+  <div class="absolute inset-0 bg-black/70 -z-10"></div>
+
+  <!-- Navbar -->
+  <header class="bg-gradient-to-r from-emerald-900/80 to-gray-800/80 shadow-lg fixed w-full top-0 z-20">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+
+      <!-- Menu Button (left edge) -->
+      <button id="menu-btn" class="text-yellow-400 text-2xl focus:outline-none">
+        ☰
+      </button>
+
+      <h1 class="text-2xl font-bold text-yellow-400">Gyanjivi Foundation</h1>
+
+      <!-- Desktop Menu -->
+      <nav class="hidden md:flex space-x-6">
+        <a href="Home.html" class="hover:text-yellow-400">Home</a>
+        <a href="About.html" class="hover:text-yellow-400">About</a>
+        <a href="service.html" class="hover:text-yellow-400">Services</a>
+        <a href="impact.html" class="text-yellow-400 font-semibold">Impact</a>
+        <a href="Achivement.html" class="hover:text-yellow-400">Achievements</a>
+        <a href="publications.html" class="hover:text-yellow-400">Publications</a>
+        <a href="blog.html" class="hover:text-yellow-400">Blog</a>
+        <a href="modiji.html" class="text-yellow-400 font-semibold">Modiji @ 75</a>
+        <a href="contact.html" class="hover:text-yellow-400">Contact</a>
+      </nav>
+    </div>
+
+    <!-- Sidebar (Mobile Menu) -->
+    <div id="mobile-menu" class="fixed top-0 left-0 w-64 h-full bg-gray-900 text-white transform -translate-x-full transition-transform duration-300 z-30">
+      <div class="flex justify-between items-center px-4 py-4 border-b border-gray-700">
+        <h2 class="text-xl font-bold text-yellow-400">Menu</h2>
+        <button id="close-btn" class="text-gray-400 hover:text-white text-2xl">✕</button>
+      </div>
+      <nav class="flex flex-col mt-4 space-y-4 px-6">
+        <a href="Home.html" class="hover:text-yellow-400">Home</a>
+        <a href="About.html" class="hover:text-yellow-400">About</a>
+        <a href="service.html" class="hover:text-yellow-400">Services</a>
+        <a href="impact.html" class="text-yellow-400 font-semibold">Impact</a>
+        <a href="Achivement.html" class="hover:text-yellow-400">Achievements</a>
+        <a href="publications.html" class="hover:text-yellow-400">Publications</a>
+        <a href="blog.html" class="hover:text-yellow-400">Blog</a>
+        <a href="modiji.html" class="text-yellow-400 font-semibold">Modiji @ 75</a>
+        <a href="contact.html" class="hover:text-yellow-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative h-64 flex items-center justify-center text-center pt-24">
+    <h1 class="text-5xl font-extrabold text-yellow-100 drop-shadow-lg">Our Impact</h1>
+  </section>
+
+  <!-- Intro -->
+  <section class="px-6 py-12 bg-black/50">
+    <div class="max-w-5xl mx-auto text-lg leading-relaxed space-y-6">
+      <h2 class="text-3xl font-bold text-yellow-200">Rewriting the Narrative of Rural Knowledge and Sustainable Development</h2>
+      <p>
+        At <span class="text-yellow-300">Sri Bala Gyanjivi Foundation</span>, <strong>impact is more than numbers</strong> — 
+        it’s a transformational shift in how rural knowledge holders, indigenous communities, and entrepreneurs access 
+        opportunities, technology, and platforms for sustainable growth. Through strategic projects, digital knowledge 
+        platforms, and climate-focused interventions, we are making rural knowledge more inclusive, valuable, and 
+        globally accessible.
+      </p>
+    </div>
+  </section>
+
+  <!-- Our Reach -->
+  <section class="px-6 py-16 bg-emerald-900/70">
+    <div class="max-w-5xl mx-auto space-y-6">
+      <h2 class="text-3xl font-bold text-yellow-100">Our Reach</h2>
+      <ul class="space-y-3 list-disc pl-6 text-gray-200">
+        <li>775 Million Unlettered People Advocated Globally</li>
+        <li>67 Women-led Ventures Created and Supported</li>
+        <li>410 Entrepreneurship & Sustainability Programs Conducted</li>
+        <li>12 Climate & Carbon Footprint Studies</li>
+        <li>3 Project Expansions & Sub Units Created</li>
+        <li>14 Doctoral Scholars Guided & Supported</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- What's Next -->
+  <section class="px-6 py-16 bg-black/50">
+    <div class="max-w-5xl mx-auto space-y-6">
+      <h2 class="text-3xl font-bold text-yellow-100">What's Next?</h2>
+      <p class="text-lg">
+        <strong class="text-yellow-200">
+          As we move towards making rural knowledge a global currency of trust,
+          Sri Bala Gyanjivi Foundation aims to:
+        </strong>
+      </p>
+      <ul class="space-y-3 list-disc pl-6 text-gray-200">
+        <li>Launch Gyanjivi, a digital currency for rural knowledge monetization.</li>
+        <li>Establish rural entrepreneurship hubs across India and beyond.</li>
+        <li>Build global alliances for climate resilience and rural knowledge digitization.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900/80 text-center py-6">
+    <p class="text-gray-400">© 2025 Proudly designed and created with love ❤️@ FreeWill Technologies.</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const closeBtn = document.getElementById('close-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.remove('-translate-x-full');
+    });
+
+    closeBtn.addEventListener('click', () => {
+      mobileMenu.classList.add('-translate-x-full');
+    });
+  </script>
+
+</body>
+</html>

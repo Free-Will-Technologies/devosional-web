@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - Sri Bala Gyanjivi Foundation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-image: url('assets/buddha.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+  </style>
+</head>
+<body class="relative text-white font-sans">
+
+  <!-- Dark overlay -->
+  <div class="absolute inset-0 bg-black/70 -z-10"></div>
+
+  <!-- Navbar -->
+  <header class="bg-gradient-to-r from-emerald-900/80 to-gray-800/80 shadow-lg fixed w-full top-0 z-20">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+
+      <!-- Menu Button (left edge) -->
+      <button id="menu-btn" class="text-yellow-400 text-2xl focus:outline-none">
+        ☰
+      </button>
+
+      <!-- Title -->
+      <h1 class="text-2xl font-bold text-yellow-400">Gyanjivi Foundation</h1>
+
+      <!-- Desktop Menu -->
+      <nav class="hidden md:flex space-x-6">
+        <a href="Home.html" class="hover:text-yellow-400">Home</a>
+        <a href="About.html" class="hover:text-yellow-400">About</a>
+        <a href="service.html" class="text-yellow-400 font-semibold">Services</a>
+        <a href="impact.html" class="hover:text-yellow-400">Impact</a>
+        <a href="Achivement.html" class="hover:text-yellow-400">Achievements</a>
+        <a href="publications.html" class="hover:text-yellow-400">Publications</a>
+        <a href="blog.html" class="hover:text-yellow-400">Blog</a>
+        <a href="Modijis Dharma Journey.html" class="text-yellow-400 font-semibold">Modiji @ 75</a>
+        <a href="contact.html" class="hover:text-yellow-400">Contact</a>
+      </nav>
+    </div>
+
+    <!-- Sidebar (left slide) -->
+    <div id="mobile-menu" class="fixed top-0 left-0 w-64 h-full bg-gray-900 text-white transform -translate-x-full transition-transform duration-300 z-30">
+      <div class="flex justify-between items-center px-4 py-4 border-b border-gray-700">
+        <h2 class="text-xl font-bold text-yellow-400">Menu</h2>
+        <button id="close-btn" class="text-gray-400 hover:text-white text-2xl">✕</button>
+      </div>
+      <nav class="flex flex-col mt-4 space-y-4 px-6">
+        <a href="Home.html" class="hover:text-yellow-400">Home</a>
+        <a href="About.html" class="hover:text-yellow-400">About</a>
+        <a href="service.html" class="text-yellow-400 font-semibold">Services</a>
+        <a href="impact.html" class="hover:text-yellow-400">Impact</a>
+        <a href="Achivement.html" class="hover:text-yellow-400">Achievements</a>
+        <a href="publications.html" class="hover:text-yellow-400">Publications</a>
+        <a href="blog.html" class="hover:text-yellow-400">Blog</a>
+        <a href="Modijis Dharma Journey.html" class="text-yellow-400 font-semibold">Modiji @ 75</a>
+        <a href="contact.html" class="hover:text-yellow-400">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="relative h-64 flex items-center justify-center text-center pt-24">
+    <h1 class="text-5xl font-extrabold text-yellow-100 drop-shadow-lg">Our Services</h1>
+  </section>
+
+  <!-- Services Grid -->
+  <section class="px-6 py-16">
+    <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-10">
+
+      <!-- ESG Service -->
+      <div class="bg-black/60 rounded-xl shadow-lg overflow-hidden">
+        <img src="assets/ESG.png" alt="ESG & Sustainability" class="w-full h-56 object-cover">
+        <div class="p-6">
+          <h2 class="text-xl font-bold text-yellow-200 mb-4">ESG & Sustainability Services</h2>
+          <ul class="space-y-2 list-disc pl-5 text-gray-200">
+            <li>ESG Framework Development</li>
+            <li>Sustainability Audits & Reports</li>
+            <li>Climate Action and Carbon Credit Strategies</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Education Service -->
+      <div class="bg-black/60 rounded-xl shadow-lg overflow-hidden">
+        <img src="assets/Edu.png" alt="Education & Training" class="w-full h-56 object-cover">
+        <div class="p-6">
+          <h2 class="text-xl font-bold text-yellow-200 mb-4">Education & Training Services</h2>
+          <ul class="space-y-2 list-disc pl-5 text-gray-200">
+            <li>Faculty Development Programs</li>
+            <li>Student Mentorship & Entrepreneurship Guidance</li>
+            <li>E-Learning Course Development</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Social Impact Service -->
+      <div class="bg-black/60 rounded-xl shadow-lg overflow-hidden">
+        <img src="assets/Social.png" alt="Social Impact Services" class="w-full h-56 object-cover">
+        <div class="p-6">
+          <h2 class="text-xl font-bold text-yellow-200 mb-4">Social Impact Services</h2>
+          <ul class="space-y-2 list-disc pl-5 text-gray-200">
+            <li>Social Entrepreneurship Development</li>
+            <li>Monitoring & Evaluation Services for NGOs</li>
+            <li>Grant Proposals & Fundraising Assistance</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Why Choose -->
+  <section class="px-6 py-16 bg-emerald-900/70">
+    <div class="max-w-5xl mx-auto space-y-6">
+      <h2 class="text-3xl font-bold text-yellow-100">Why Choose Sri Bala Gyanjivi?</h2>
+      <ul class="space-y-3 list-disc pl-6 text-gray-200">
+        <li>25+ years of expertise across rural empowerment, climate action, and social entrepreneurship</li>
+        <li>Created an inclusive digital knowledge-sharing platform for underserved communities</li>
+        <li>Award-winning impact across rural areas in India and beyond</li>
+        <li>Established trusted connections with NGOs, corporates, and institutions</li>
+      </ul>
+      <p class="text-lg mt-6">
+        Are you ready to create <strong class="text-yellow-300">impactful, sustainable change?</strong> 
+        Let’s collaborate to build solutions that educate, empower, and transform communities.
+      </p>
+      <p class="mt-4 italic text-yellow-200">Book a Consultation Today</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900/80 text-center py-6">
+    <p class="text-gray-400">©  2025 Proudly designed and created with love ❤️@ FreeWill Technologies.</p>
+  </footer>
+
+  <!-- Sidebar Script -->
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const closeBtn = document.getElementById('close-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.remove('-translate-x-full');
+    });
+
+    closeBtn.addEventListener('click', () => {
+      mobileMenu.classList.add('-translate-x-full');
+    });
+  </script>
+
+</body>
+</html>
